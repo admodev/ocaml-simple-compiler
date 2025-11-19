@@ -15,5 +15,9 @@ rule token = parse
   | '/' { DIV }
   | '(' { LPAREN }
   | ')' { RPAREN }
+  | '{' { LBRACE }
+  | '}' { RBRACE }
+  | ';' { SEMICOLON }
+  | "PRT" { PRT }
   | eof { EOF }
   | _ as c { failwith (Printf.sprintf "Unexpected character: %c" c) }
