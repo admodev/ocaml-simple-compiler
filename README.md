@@ -1,11 +1,11 @@
-# OCaml AST Compiler
+# Ocom (Ocaml Compiler)
 
-This project is a simple OCaml compiler that reads a source file, parses it, and outputs an Abstract Syntax Tree (AST).
+This project is a simple OCaml compiler that reads a source file, parses it, and outputs an Abstract Syntax Tree (AST). Later on, it will not just print the AST, but also evaluate it, and finally generate binary code to be executed on a virtual machine.
 
 ## Requirements
 
 - OCaml (version 4.x recommended)
-- Menhir (for parsing)  
+- Menhir (for parsing)
 - OCamllex (for lexing)
 
 ## Build Instructions
