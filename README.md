@@ -52,7 +52,7 @@ Usage: main <sourcefile>
 If parsing is successful, you'll get:
 
 ```
-AST parsed successfully.
+Source code parsed successfully.
 ```
 
 Otherwise, you'll get an error message.

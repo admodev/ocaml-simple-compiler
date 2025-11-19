@@ -15,7 +15,7 @@ let () =
   let lexbuf = Lexing.from_channel in_channel in
   try
     let ast = Compiler_lib.Parser.program Compiler_lib.Lexer.token lexbuf in
-    print_endline "AST parsed successfully:";
+    print_endline "Source code parsed successfully:";
     print_endline (Compiler_lib.Ast.string_of_program ast);
     close_in in_channel
   with
